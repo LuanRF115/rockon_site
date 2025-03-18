@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -52,25 +55,26 @@ body {
 }
  
 header {
-    background: #f5f5f5;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
 }
  
-.logo h1 {
-    font-size: 28px;
-    font-weight: bold;
+.logo img{
+    width: 75%;
+    height: auto;
 }
- 
+
 .logo span {
     color: red;
 }
  
 .social-icons img {
-    width: 24px;
+    width: 40px;
     margin-left: 10px;
+    margin-top: 12;
+    
 }
  
 .banner img {
@@ -82,6 +86,7 @@ header {
     display: flex;
     padding: 30px;
     gap: 20px;
+    margin-left: 40px;
 }
  
 .categorias ul {
@@ -102,14 +107,18 @@ header {
     flex: 1;
     margin: 20%;
     margin-left: 10%;
+    margin-top: 0px;
    
    
 }
  
 .produto {
+
     padding: 15px;
     text-align: center;
     border-radius: 8px;
+    font-family: Poppins;
+    margin-left: 10;
    
 }
  
@@ -132,9 +141,12 @@ header {
 .promocao {
     display: flex;
     align-items: center;
-    padding: 40px;
-    background: #f9f9f9;
- 
+    padding:0px;
+    width: 450px;
+    margin-left: 50px;
+    border-radius: 3px;
+    border: 2px solid #d9d9d9;
+
 }
  
 .promo-texto {
@@ -142,34 +154,54 @@ header {
 }
  
 .promo-texto h2 {
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: 10px;
+    font-family: Poppins;
+    margin-left: 90;
+}
+
+.promo-texto p{
+    margin-top: 10;
+    width: 300;
+    margin-left: 90;
 }
  
 .promo-texto button {
     background: #ddd;
     border: none;
-    padding: 10px 25px;
-    margin-top: 10px;
+    padding: 15px 40px;
     cursor: pointer;
     border-radius: 4px;
     color: #ffffff;
+    margin-top: 45px;
+    margin-left: 90;
 }
  
 .promo-img img {
-    width: 300px;
+    width: px;
     height: auto;
+    margin-left: 100px;
 }
  
 .contato {
     padding: 40px;
     background: #fff;
     text-align: center;
+
 }
  
 .contato h2 {
-    font-size: 26px;
+    font-size: 35px;
     margin-bottom: 10px;
+    font-family: Poppins;
+    font-family: Raleway;
+}
+
+.contato p{
+   display: flex;
+   margin-left: 100;
+    font-size: 15px;
+    margin-top: 10;
 }
  
 form {
@@ -179,6 +211,7 @@ form {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    
 }
  
 form input, form textarea {
@@ -186,6 +219,7 @@ form input, form textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     width: calc(50% - 10px);
+    background-color: #D9D9D9;
 }
  
 form textarea {
@@ -205,6 +239,7 @@ form button {
 .titulo {
     font-weight: bold;
     font-family: Poppins;
+    margin-top: 10px;
 }
  
  
